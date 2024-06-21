@@ -4,5 +4,9 @@ public class Day2 {
         double value = 4.9;
         String word = "Demonstrations";
         
+        System.out.println(number);
+        System.out.println(value);
+        System.out.println(word);
+        
     }
 }
