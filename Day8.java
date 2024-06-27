@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Day8 {
     public static void main(String[] args) {
-        System.out.println("Odd or Even");
-        oddOrEven();
-        System.out.println("----------");
-        System.out.println("Largest among them");
+        // System.out.println("Odd or Even");
+        // oddOrEven();
+        // System.out.println("----------");
+        // System.out.println("Largest among them");
         largestOfThree();
-        System.out.println("----------");
-        System.out.println("Leap Year or Not");
-        leapYearOrNot();
+        // System.out.println("----------");
+        // System.out.println("Leap Year or Not");
+        // leapYearOrNot();
     }
 
     public static void oddOrEven() {
@@ -36,21 +36,17 @@ public class Day8 {
         int thirdNumber = Integer.valueOf(scanner.nextLine());
 
         int max = firstNumber;
-        while (true) {
-            if (firstNumber == secondNumber && firstNumber == thirdNumber) {
-                System.out.println("The numbers are Equal!");
-                break;
-            }
-
-            if (secondNumber > max) {
-                max = secondNumber;
-            } else if (thirdNumber > max) {
-                max = thirdNumber;
-            }
-            System.out.println("The largest number is: " + max);
-            break;
-
+        if (firstNumber == secondNumber && firstNumber == thirdNumber) {
+            System.out.println("The numbers are Equal!");
         }
+
+        if (secondNumber > max) {
+            max = secondNumber;
+        } else if (thirdNumber > max) {
+            max = thirdNumber;
+        }
+        System.out.println("The largest number is: " + max);
+
     }
 
     public static void leapYearOrNot() {
@@ -58,24 +54,24 @@ public class Day8 {
         System.out.print("Enter a year: ");
         int year = Integer.valueOf(scanner.nextLine());
 
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 ==0) {
-        System.out.println(year + " is a Leap Year!");
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            System.out.println(year + " is a Leap Year!");
         } else {
-        System.out.println(year + " is not a Leap Year!");
+            System.out.println(year + " is not a Leap Year!");
         }
 
         // if (year % 4 == 0) {
-        //     if (year % 100 == 0) {
-        //         if (year % 400 == 0) {
-        //             System.out.println(year + " is a Leap Year!");
-        //         } else {
-        //             System.out.println(year + " is not a Leap Year!");
-        //         }
-        //     } else {
-        //         System.out.println(year + " is a Leap Year!");
-        //     }
+        // if (year % 100 == 0) {
+        // if (year % 400 == 0) {
+        // System.out.println(year + " is a Leap Year!");
         // } else {
-        //     System.out.println(year + " is not a Leap Year!");
+        // System.out.println(year + " is not a Leap Year!");
+        // }
+        // } else {
+        // System.out.println(year + " is a Leap Year!");
+        // }
+        // } else {
+        // System.out.println(year + " is not a Leap Year!");
         // }
     }
 
