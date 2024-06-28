@@ -16,3 +16,6 @@ This Java program showcases fundamental mathematical operations through the Math
 
 ### Day 8
 This Java program, Day8, provides three main functionalities that interact with the user through the console. First, it determines if a number entered by the user is odd or even. Second, it finds the largest among three numbers provided by the user. Third, it checks if a given year is a leap year. The program guides the user through each functionality sequentially, prompting for input and displaying the results.
+
+### Day 9
+This Java program calculates grades based on user input using a switch statement. The user enters a numerical score, and the program outputs the corresponding grade (A, B, C, D, or F). The program uses a Scanner for input and a switch statement to determine the grade. It demonstrates basic control flow and user interaction in Java.
