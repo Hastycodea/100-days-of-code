@@ -3,14 +3,14 @@ import java.util.Scanner;
 
 public class Day10 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an integer: ");
-        int number = Integer.valueOf(scanner.nextLine());
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Enter an integer: ");
+        // int number = Integer.valueOf(scanner.nextLine());
 
-        forLoop(number);
-        whileLoop(number);
-        doWhileLoop(number);
-        sumOfEven(number);
+        // forLoop(number);
+        // whileLoop(number);
+        // doWhileLoop(number);
+        // sumOfEven(number);
         randomDivisibleBy5And7();
 
     }
@@ -59,11 +59,11 @@ public class Day10 {
         Random rand = new Random();
 
         while (true) {
-            int randNumber = rand.nextInt(101);
+            int randNumber = rand.nextInt(100) + 1;
             if (randNumber % 5 == 0 && randNumber % 7 == 0) {
                 System.out.println("The number is: " + randNumber);
+                break;
             }
-            break;
         }
     }
 }
