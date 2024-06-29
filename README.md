@@ -19,3 +19,6 @@ This Java program, Day8, provides three main functionalities that interact with 
 
 ### Day 9
 This Java program calculates grades based on user input using a switch statement. The user enters a numerical score, and the program outputs the corresponding grade (A, B, C, D, or F). The program uses a Scanner for input and a switch statement to determine the grade. It demonstrates basic control flow and user interaction in Java.
+
+### Day 10
+This Java program demonstrates the use of different types of loops (for, while, and do-while), calculates the sum of even numbers within a range, and generates a random number divisible by both 5 and 7. The user inputs an integer, and the program performs various operations based on that input.
