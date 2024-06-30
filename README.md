@@ -11,14 +11,13 @@ This program demonstrates basic arithmetic operations and calculations. The exer
 The program demonstrates the usage of increment, decrement, and various compound assignment operators. These operators are essential for concise and efficient code.
 ### Day 6
 This Java program serves as an educational demonstration of input handling and data type conversions. It employs a `Scanner` to capture user input, showcasing how to convert a string input into both an integer and a double using `Integer.valueOf()` and `Double.valueOf()`, respectively. The program also illustrates converting an integer to a string using `String.valueOf()` and provides an alternative method using `Integer.toString()`. These operations collectively highlight essential techniques for interacting with user input and manipulating data types effectively within Java programming.
-
+### Day 7
 This Java program showcases fundamental mathematical operations through the Math class functions. It includes finding the maximum and minimum values of two integers using Math.max() and Math.min(), respectively. Additionally, it computes the square root of an integer using Math.sqrt(), and demonstrates Math.floor() and Math.ceil() to derive the floor and ceiling values of a floating-point number. Furthermore, the program utilizes Math.abs() to obtain the absolute value of a double. These operations collectively illustrate how to perform essential mathematical computations efficiently in Java.
-
 ### Day 8
 This Java program, Day8, provides three main functionalities that interact with the user through the console. First, it determines if a number entered by the user is odd or even. Second, it finds the largest among three numbers provided by the user. Third, it checks if a given year is a leap year. The program guides the user through each functionality sequentially, prompting for input and displaying the results.
-
 ### Day 9
 This Java program calculates grades based on user input using a switch statement. The user enters a numerical score, and the program outputs the corresponding grade (A, B, C, D, or F). The program uses a Scanner for input and a switch statement to determine the grade. It demonstrates basic control flow and user interaction in Java.
-
 ### Day 10
 This Java program demonstrates the use of different types of loops (for, while, and do-while), calculates the sum of even numbers within a range, and generates a random number divisible by both 5 and 7. The user inputs an integer, and the program performs various operations based on that input.
+### Day 11
+This Java program demonstrates various string manipulation techniques. The class showcases operations such as string length measurement, concatenation, comparison, case conversion, trimming, substring extraction, splitting, reversal, and searching.
