@@ -21,3 +21,7 @@ This Java program calculates grades based on user input using a switch statement
 This Java program demonstrates the use of different types of loops (for, while, and do-while), calculates the sum of even numbers within a range, and generates a random number divisible by both 5 and 7. The user inputs an integer, and the program performs various operations based on that input.
 ### Day 11
 This Java program demonstrates various string manipulation techniques. The class showcases operations such as string length measurement, concatenation, comparison, case conversion, trimming, substring extraction, splitting, reversal, and searching.
+### Day 12
+This Java program demonstrates the use of String, StringBuilder, and StringBuffer in different contexts. It highlights when to use each type based on the need to modify character sequences and the environment in which the code runs (single-threaded vs multi-threaded).
+### Day 13
+This Java program demonstrates how to initialize an ArrayList, add elements to it, and retrieve items. It showcases basic operations on an ArrayList, including adding, accessing, and iterating over elements
