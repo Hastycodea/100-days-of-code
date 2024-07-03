@@ -25,3 +25,5 @@ This Java program demonstrates various string manipulation techniques. The class
 This Java program demonstrates the use of String, StringBuilder, and StringBuffer in different contexts. It highlights when to use each type based on the need to modify character sequences and the environment in which the code runs (single-threaded vs multi-threaded).
 ### Day 13
 This Java program demonstrates how to initialize an ArrayList, add elements to it, and retrieve items. It showcases basic operations on an ArrayList, including adding, accessing, and iterating over elements
+### Day 14
+This Java program provides functionality for handling 2D arrays, including finding the maximum values in each row and column, and transforming (transposing) the array. The main class contains methods to perform these tasks and demonstrate their usage through a series of print statements.
