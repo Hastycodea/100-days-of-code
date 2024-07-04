@@ -27,17 +27,17 @@ public class Day15 {
         removesChar(weekdays, input);
         weekdays.stream().forEach(day -> System.out.println(day));
 
-        // // Sorting elements alphabetically
-        // System.out.println("Sorting elements alphabetically");
-        // weekdays.stream().sorted().forEach(day -> System.out.println(day));
-        // System.out.println();
+        // Sorting elements alphabetically
+        System.out.println("Sorting elements alphabetically");
+        weekdays.stream().sorted().forEach(day -> System.out.println(day));
+        System.out.println();
 
-        // // Sorting elements in decreasing order alphabetically
-        // System.out.println("Sorting elements in decreasing order alphabetically");
-        // Collections.sort(weekdays, (String d1, String d2) -> {
-        //     return d2.compareTo(d1);
-        // });
-        // weekdays.stream().forEach(day -> System.out.println(day));
+        // Sorting elements in decreasing order alphabetically
+        System.out.println("Sorting elements in decreasing order alphabetically");
+        Collections.sort(weekdays, (String d1, String d2) -> {
+            return d2.compareTo(d1);
+        });
+        weekdays.stream().forEach(day -> System.out.println(day));
 
     }
 
