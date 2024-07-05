@@ -29,3 +29,5 @@ This Java program demonstrates how to initialize an ArrayList, add elements to i
 This Java program provides functionality for handling 2D arrays, including finding the maximum values in each row and column, and transforming (transposing) the array. The main class contains methods to perform these tasks and demonstrate their usage through a series of print statements.
 ### Day 15
 This Java program demonstrates various operations on an ArrayList of strings representing the days of the week. It includes functionalities such as printing elements, removing elements based on user input, and sorting the elements alphabetically both in ascending and descending order.
+### Day 16
+This java program demonstrates the use of an enum in Java. It defines an enum named weekdays containing the days of the week from Monday to Sunday, and prints all the elements in the enum.
