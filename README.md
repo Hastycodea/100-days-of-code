@@ -31,3 +31,5 @@ This Java program provides functionality for handling 2D arrays, including findi
 This Java program demonstrates various operations on an ArrayList of strings representing the days of the week. It includes functionalities such as printing elements, removing elements based on user input, and sorting the elements alphabetically both in ascending and descending order.
 ### Day 16
 This java program demonstrates the use of an enum in Java. It defines an enum named weekdays containing the days of the week from Monday to Sunday, and prints all the elements in the enum.
+### Day 17
+This Java program demonstrates various date and time operations, including formatting dates, calculating past dates, comparing dates, and displaying current dates in different time zones.
