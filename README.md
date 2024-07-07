@@ -33,3 +33,6 @@ This Java program demonstrates various operations on an ArrayList of strings rep
 This java program demonstrates the use of an enum in Java. It defines an enum named weekdays containing the days of the week from Monday to Sunday, and prints all the elements in the enum.
 ### Day 17
 This Java program demonstrates various date and time operations, including formatting dates, calculating past dates, comparing dates, and displaying current dates in different time zones.
+### Day 18
+This Java program performs two main functions: it counts the number of vowels in a given sentence and checks if a given number is a prime number.
+
