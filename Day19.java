@@ -14,6 +14,8 @@ public class Day19 {
 
     public static int randomTwoInt(int a, int b) {
         Random rand = new Random();
-        return rand.nextInt(a) + b;
+
+        // shows the the range (b - a)
+        return rand.nextInt(b) + a;
     }
 }
