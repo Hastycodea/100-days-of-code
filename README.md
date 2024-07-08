@@ -35,4 +35,5 @@ This java program demonstrates the use of an enum in Java. It defines an enum na
 This Java program demonstrates various date and time operations, including formatting dates, calculating past dates, comparing dates, and displaying current dates in different time zones.
 ### Day 18
 This Java program performs two main functions: it counts the number of vowels in a given sentence and checks if a given number is a prime number.
-
+### Day 19
+This java program focuses on generating random numbers in Java. It includes two programs: one for generating a simple random number and another for generating a random number between two specified integers.
