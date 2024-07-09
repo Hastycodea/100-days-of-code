@@ -37,3 +37,5 @@ This Java program demonstrates various date and time operations, including forma
 This Java program performs two main functions: it counts the number of vowels in a given sentence and checks if a given number is a prime number.
 ### Day 19
 This java program focuses on generating random numbers in Java. It includes two programs: one for generating a simple random number and another for generating a random number between two specified integers.
+### Day 20
+This java program demonstrates basic operations on a Set of String values in Java. It covers initializing a set, adding items, checking for existence of an item, removing items, printing the size, looping through the set to print all values, and clearing the set.
