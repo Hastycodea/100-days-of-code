@@ -9,7 +9,7 @@ public class Day22 {
 
         System.out.println(values);
 
-        //removing the top element from the Stack
+        // removing the top element from the Stack
         System.out.println(values.pop());
         System.out.println(values);
 
@@ -18,14 +18,18 @@ public class Day22 {
         System.out.println(values);
 
         // checking if a value exists in the Stack
+        System.out.println(values.peek());
+        System.out.println(values.peek());
+        System.out.println(values.peek());
+
         System.out.println(values.contains("Juju"));
 
-        // printing size in the Stack
-        System.out.println(values.size());
-        
-        //getting an element from the stack, index method
+        // getting an element from the stack, index method
         System.out.println(values.get(1));
-        
+
+        // printing size in the Stack fr
+        System.out.println(values.size());
+
         // removing all the values from the Stack
         values.removeAllElements();
         System.out.println(values.size());
