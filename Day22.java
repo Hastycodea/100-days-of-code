@@ -22,9 +22,13 @@ public class Day22 {
 
         // printing size in the Stack
         System.out.println(values.size());
-
+        
+        //getting an element from the stack, index method
+        System.out.println(values.get(1));
+        
         // removing all the values from the Stack
         values.removeAllElements();
         System.out.println(values.size());
+
     }
 }
