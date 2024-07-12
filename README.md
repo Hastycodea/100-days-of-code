@@ -43,3 +43,5 @@ This java program demonstrates basic operations on a Set of String values in Jav
 This java program focuses on using a HashMap to manage student data. The program initializes a HashMap to store roll numbers and student names, adds items to it, retrieves and prints student names, checks for the existence of keys, removes items, and prints the size of the HashMap. It also demonstrates iterating over the HashMap using both keySet() and entrySet().
 ### Day 22
 This java program provides a demonstration of basic operations on a Stack in Java using the java.util.Stack class. The example includes adding elements to the stack, removing the top element, peeking at the top element, checking for the existence of an element, and clearing the stack.
+### Day 23
+This Java program demonstrates basic operations on a Queue using a LinkedList. The operations include adding elements, removing the head element, peeking at the head element, checking for the existence of an element, printing the size of the queue, and removing all elements from the queue.
