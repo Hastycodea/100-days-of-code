@@ -45,3 +45,5 @@ This java program focuses on using a HashMap to manage student data. The program
 This java program provides a demonstration of basic operations on a Stack in Java using the java.util.Stack class. The example includes adding elements to the stack, removing the top element, peeking at the top element, checking for the existence of an element, and clearing the stack.
 ### Day 23
 This Java program demonstrates basic operations on a Queue using a LinkedList. The operations include adding elements, removing the head element, peeking at the head element, checking for the existence of an element, printing the size of the queue, and removing all elements from the queue.
+### Day 24
+The Day25 class is a simple Java class that models a person with several attributes including ID, first name, last name, email, city, and country. This class provides constructors, getters, and setters for each attribute, as well as an overridden toString method for representing the object as a string.
