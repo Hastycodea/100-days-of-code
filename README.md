@@ -51,3 +51,5 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 The Day25 class is a simple Java class that models a person with several attributes including ID, first name, last name, email, city, and country. This class provides constructors, getters, and setters for each attribute, as well as an overridden toString method for representing the object as a string.
 ### Day 26
 The Day26 class represents a person with attributes such as ID, first name, last name, email, city, and country. It provides multiple constructors to create instances of the class with different combinations of attributes and getter and setter methods to access and modify these attributes.
+### Day 27
+This project contains three Java classes: User, Instructor, and Student. The User class is a base class with fields such as id, firstName, lastName, email, city, and country. The Instructor and Student classes extend the User class and add additional fields specific to their roles. This demonstrates the concept of inheritance, where Instructor and Student inherit the properties and methods of the User class, while also introducing their own unique attributes and behaviors.
