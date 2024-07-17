@@ -53,3 +53,5 @@ The Day25 class is a simple Java class that models a person with several attribu
 The Day26 class represents a person with attributes such as ID, first name, last name, email, city, and country. It provides multiple constructors to create instances of the class with different combinations of attributes and getter and setter methods to access and modify these attributes.
 ### Day 27
 This project contains three Java classes: User, Instructor, and Student. The User class is a base class with fields such as id, firstName, lastName, email, city, and country. The Instructor and Student classes extend the User class and add additional fields specific to their roles. This demonstrates the concept of inheritance, where Instructor and Student inherit the properties and methods of the User class, while also introducing their own unique attributes and behaviors.
+### Day 28
+The Instructor class extends the User class and includes additional attributes and methods specific to instructors. The primary focus of this class is to demonstrate method overloading through the incrementSalary method.
