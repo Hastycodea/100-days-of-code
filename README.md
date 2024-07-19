@@ -57,3 +57,5 @@ This project contains three Java classes: User, Instructor, and Student. The Use
 The Instructor class extends the User class and includes additional attributes and methods specific to instructors. The primary focus of this class is to demonstrate method overloading through the incrementSalary method.
 ### Day 29
 This package provides instructions on how to add and use the getFullname() method in the Instructor class, which overrides the getFullname() method in the User class showcasing method overiding.
+### Day 30
+The User abstract class serves as a base class representing a general user with common attributes and methods. It is designed to be extended by concrete subclasses that will provide specific implementations of the abstract methods. This class encapsulates user-related data and provides a default implementation for some common functionalities.
