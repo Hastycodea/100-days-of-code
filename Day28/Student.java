@@ -1,4 +1,4 @@
-package Day27;
+package Day28;
 
 public class Student extends User {
     private String registerdCourses;
