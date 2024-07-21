@@ -61,3 +61,5 @@ This package provides instructions on how to add and use the getFullname() metho
 The User abstract class serves as a base class representing a general user with common attributes and methods. It is designed to be extended by concrete subclasses that will provide specific implementations of the abstract methods. This class encapsulates user-related data and provides a default implementation for some common functionalities.
 ### Day 31
 The Day31 package contains an interface Instructor and its implementation class Details. This package demonstrates the use of interfaces in Java and how to implement them in a concrete class.
+### Day 32
+The package focuses on polymorphism which is a key feature of OOP that enhances flexibility and reusability in code. The provided classes (User, Student, and Instructor) illustrate how polymorphism can be implemented through method overloading and method overriding, showcasing the power and simplicity of this concept in Java.
