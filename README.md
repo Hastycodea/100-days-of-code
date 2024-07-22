@@ -63,3 +63,5 @@ The User abstract class serves as a base class representing a general user with 
 The Day31 package contains an interface Instructor and its implementation class Details. This package demonstrates the use of interfaces in Java and how to implement them in a concrete class.
 ### Day 32
 The package focuses on polymorphism which is a key feature of OOP that enhances flexibility and reusability in code. The provided classes (User, Student, and Instructor) illustrate how polymorphism can be implemented through method overloading and method overriding, showcasing the power and simplicity of this concept in Java.
+### Day 33
+This project demonstrates how to serialize and deserialize a Java object using the Serializable interface. The example involves an Instructor class that extends a User class and implements the Serializable interface.
