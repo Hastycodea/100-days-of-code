@@ -1,6 +1,8 @@
-package Day28;
+package Day33;
 
-public class Instructor extends User {
+import java.io.Serializable;
+
+public class Instructor extends User implements Serializable {
     private String qualification;
     private String coursesTaught;
     private int salary;
