@@ -1,6 +1,8 @@
-package Day27;
+package Day34;
+
 
 public class Instructor extends User {
+
     private String qualification;
     private String coursesTaught;
     private int salary;
