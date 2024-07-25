@@ -67,3 +67,7 @@ The package focuses on polymorphism which is a key feature of OOP that enhances 
 This project demonstrates how to serialize and deserialize a Java object using the Serializable interface. The example involves an Instructor class that extends a User class and implements the Serializable interface.
 ### Day 34
 The package focusses on annotations. Annotations in Java are a powerful mechanism that allows developers to provide metadata about the code. This metadata can be used by the compiler, the runtime environment, and various tools to enforce rules, generate code, or configure behaviors.
+### Day 35
+The package involves working with files, this involves creating new files.
+### Day 36
+The Day36 package provides functionality to read data from a CSV file and write data to a text file using Java's file I/O capabilities. This example demonstrates different methods for reading files, including using Paths.get, File, and FileReader, as well as writing to a file using FileWriter.
