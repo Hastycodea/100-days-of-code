@@ -71,3 +71,5 @@ The package focusses on annotations. Annotations in Java are a powerful mechanis
 The package involves working with files, this involves creating new files. The FileOperations class demonstrates how to create a directory and a file within it using Java's java.nio.file package. This example covers basic file and directory operations including checking for existence, creating directories, and creating files.
 ### Day 36
 The Day36 package provides functionality to read data from a CSV file and write data to a text file using Java's file I/O capabilities. This example demonstrates different methods for reading files, including using Paths.get, File, and FileReader, as well as writing to a file using FileWriter.
+### Day 37
+This Java program reads student details from a CSV file, stores them in a list, and prints the sorted details.
