@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "qualification": "PhD in Computer Science",
+        "department": "Computer Science",
+        "experience": 10
+    },
+    {
+        "id": 2,
+        "firstName": "Robert",
+        "lastName": "Smith",
+        "qualification": "Master's in Mathematics",
+        "department": "Mathematics",
+        "experience": 8
+    },
+    {
+        "id": 3,
+        "firstName": "Maria",
+        "lastName": "Garcia",
+        "qualification": "PhD in Physics",
+        "department": "Physics",
+        "experience": 12
+    },
+    {
+        "id": 4,
+        "firstName": "David",
+        "lastName": "Williams",
+        "qualification": "Master's in Chemistry",
+        "department": "Chemistry",
+        "experience": 6
+    },
+    {
+        "id": 5,
+        "firstName": "Linda",
+        "lastName": "Brown",
+        "qualification": "PhD in Biology",
+        "department": "Biology",
+        "experience": 15
+    },
+    {
+        "id": 6,
+        "firstName": "James",
+        "lastName": "Jones",
+        "qualification": "Master's in English",
+        "department": "English",
+        "experience": 9
+    },
+    {
+        "id": 7,
+        "firstName": "Patricia",
+        "lastName": "Miller",
+        "qualification": "PhD in History",
+        "department": "History",
+        "experience": 14
+    },
+    {
+        "id": 8,
+        "firstName": "Michael",
+        "lastName": "Davis",
+        "qualification": "Master's in Geography",
+        "department": "Geography",
+        "experience": 7
+    },
+    {
+        "id": 9,
+        "firstName": "Barbara",
+        "lastName": "Martinez",
+        "qualification": "PhD in Political Science",
+        "department": "Political Science",
+        "experience": 11
+    },
+    {
+        "id": 10,
+        "firstName": "John",
+        "lastName": "Anderson",
+        "qualification": "Master's in Economics",
+        "department": "Economics",
+        "experience": 5
+    }
+]
