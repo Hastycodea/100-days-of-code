@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "qualification": "PhD in Computer Science"
+    },
+    {
+        "id": 14,
+        "first_name": "John",
+        "last_name": "Doe",
+        "qualification": "PhD in Computer Science"
+    },
+    {
+        "id": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "qualification": "Masters in Mathematics"
+    },
+    {
+        "id": 3,
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "qualification": "PhD in Physics"
+    },
+    {
+        "id": 4,
+        "first_name": "Emily",
+        "last_name": "Davis",
+        "qualification": "Masters in Chemistry"
+    },
+    {
+        "id": 5,
+        "first_name": "Christopher",
+        "last_name": "Wilson",
+        "qualification": "PhD in Biology"
+    },
+    {
+        "id": 6,
+        "first_name": "Amanda",
+        "last_name": "Johnson",
+        "qualification": "Masters in English Literature"
+    },
+    {
+        "id": 7,
+        "first_name": "Matthew",
+        "last_name": "Garcia",
+        "qualification": "PhD in History"
+    },
+    {
+        "id": 8,
+        "first_name": "Sophia",
+        "last_name": "Martinez",
+        "qualification": "Masters in Economics"
+    },
+    {
+        "id": 9,
+        "first_name": "James",
+        "last_name": "Anderson",
+        "qualification": "PhD in Political Science"
+    },
+    {
+        "id": 10,
+        "first_name": "Olivia",
+        "last_name": "Thomas",
+        "qualification": "Masters in Sociology"
+    }
+]
