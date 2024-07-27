@@ -73,3 +73,6 @@ The package involves working with files, this involves creating new files. The F
 The Day36 package provides functionality to read data from a CSV file and write data to a text file using Java's file I/O capabilities. This example demonstrates different methods for reading files, including using Paths.get, File, and FileReader, as well as writing to a file using FileWriter.
 ### Day 37
 This Java program reads student details from a CSV file, stores them in a list, and prints the sorted details. The Json package involves reading information from a json file, and adding the information to a hashmap with id as the key.
+### Day 38
+This project contains Java programs focused on handling various exceptions during runtime, specifically `ArithmeticException`, `FileNotFoundException` and `NumberFormatException`.
+
