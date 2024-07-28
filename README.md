@@ -75,4 +75,5 @@ The Day36 package provides functionality to read data from a CSV file and write 
 This Java program reads student details from a CSV file, stores them in a list, and prints the sorted details. The Json package involves reading information from a json file, and adding the information to a hashmap with id as the key.
 ### Day 38
 This project contains Java programs focused on handling various exceptions during runtime, specifically `ArithmeticException`, `FileNotFoundException` and `NumberFormatException`.
-
+### Day 39
+The Day39 package contains a Java application that demonstrates various functional programming concepts using streams and lambda expressions. The application performs several operations, including filtering strings, calculating squares of numbers, finding prime numbers, and filtering student records based on grades read from a CSV file.
