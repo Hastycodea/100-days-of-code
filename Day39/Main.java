@@ -18,11 +18,13 @@ public class Main {
         Collections.addAll(listIntegers, 4, 8, 9, 10, 20, 3);
         listIntegers.stream().map(n -> n * n).forEach(System.out::println);
 
+        System.out.println();
+        System.out.println("Prime numbers");
         //finding prime numbers
         ArrayList<Integer> findPrime = new ArrayList<>();
         Collections.addAll(findPrime, 1, 2, 3, 5, 4, 9, 8, 12, 11, 17, -3);
-        findPrime.stream().map(n -> n > 1 && n % 2 == 1 && n % Math.sqrt(n) == 1).forEach(System.out::println);
-        
+        findPrime.parallelStream().filter(Main::isPrime).forEach(System.out::println);
+        System.out.println();
         
         //filtering students with >3 grade
         HashMap<String, Integer> students = new HashMap<>();
@@ -45,5 +47,13 @@ public class Main {
         .filter(n -> n.getValue() > 3)
         .forEach(n -> System.out.println(n.getKey() + ":" + n.getValue()));
 
+    }
+
+    public static boolean isPrime(int number) {
+        if(number == 0 || number == 1) return false;
+        for(int i = 2; i <=Math.sqrt(number); i++) {
+            if (number % i == 0) return false;
+        }
+        return true;
     }
 }
