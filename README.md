@@ -77,3 +77,5 @@ This Java program reads student details from a CSV file, stores them in a list, 
 This project contains Java programs focused on handling various exceptions during runtime, specifically `ArithmeticException`, `FileNotFoundException` and `NumberFormatException`.
 ### Day 39
 The Day39 package contains a Java application that demonstrates various functional programming concepts using streams and lambda expressions. The application performs several operations, including filtering strings, calculating squares of numbers, finding prime numbers, and filtering student records based on grades read from a CSV file.
+### Day 40
+The Day40 package involves multithreading apprach in reading a list of integers and printing out the prime numbers, and it also covers reading the Instructor and Students file implementing multithreading by printing the contents one by one.
