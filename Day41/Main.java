@@ -8,9 +8,13 @@ public class Main {
             System.out.print("Enter a string: ");
             String input = scanner.nextLine();
 
-            String email = "([(a-z) || (A-Z)]+||[0-9]+||([0-9]+)([a-z]+))(@)[a-z]+(.)[a-z]+";
+            String email = "([a-z]+||[0-9]+||([a-z]+)([0-9]+))(@)[a-z]+(.)[a-z]+";
 
-            if (input.matches(email)) {
+            // corrected email denoted as => emailTrue
+
+            String emailTrue = "^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
+
+            if (input.matches(emailTrue)) {
                 System.out.println("The entered email is corect");
             } else {
                 System.out.println("The email entered is incorrect");
