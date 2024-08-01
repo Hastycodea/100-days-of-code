@@ -81,3 +81,5 @@ The Day39 package contains a Java application that demonstrates various function
 The Day40 package involves multithreading apprach in reading a list of integers and printing out the prime numbers, and it also covers reading the Instructor and Students file implementing multithreading by printing the contents one by one.
 ### Day 41
 The Day41 package includes Email Validator, a Java program that allows users to input strings and checks whether the entered strings are valid email addresses. It utilizes regular expressions (regex) for email validation to ensure that the input follows standard email format rules.
+### Day 42
+This Java application connects to a MySQL database and retrieves information about students from the `students` table. It demonstrates the use of JDBC (Java Database Connectivity) to execute SQL queries and process the results.
