@@ -1,7 +1,7 @@
 package Day40;
 
 public class MainProgram {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         MainThread instructorThread = new MainThread("Instructors.csv");
         MainThread studentThread = new MainThread("students.csv");
 
