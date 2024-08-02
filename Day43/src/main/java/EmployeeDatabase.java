@@ -1,7 +1,4 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Scanner;
 
 public class EmployeeDatabase {
@@ -19,15 +16,18 @@ public class EmployeeDatabase {
         conn = DriverManager.getConnection(url, user, password);
 
         System.out.println("1. Insert Employee");
+        System.out.println("2. Update Employee");
         System.out.print("Enter a choice: ");
         int choice = Integer.parseInt(scanner.nextLine());
 
         switch (choice) {
-            case 1:
-                employeeDatabase.insertMethod();
-                break;
-            default:
-                break;
+                case 1:
+                    employeeDatabase.insertMethod();
+                    break;
+                case 2:
+                    employeeDatabase.updateMethod();
+                default:
+                    break;
         }
     }
 
@@ -58,5 +58,93 @@ public class EmployeeDatabase {
         if (rows > 0) {
             System.out.println("Inserted successfully");
         }
+    }
+    private void updateMethod() throws SQLException {
+        System.out.print("Enter pay to update table: ");
+        int payValue = Integer.parseInt(scanner.nextLine());
+
+        String sql = "select * from employees where pay="+payValue;
+        Statement statement = conn.createStatement();
+        ResultSet resultSet = statement.executeQuery(sql);
+
+        if (resultSet.next()) {
+
+            String city = resultSet.getString("city");
+            String first_name = resultSet.getString("first_name");
+            String last_name = resultSet.getString("last_name");
+            int pay = resultSet.getInt("pay");
+            int days = resultSet.getInt("days");
+            String email = resultSet.getString("email");
+
+            System.out.println("The city is " + city);
+            System.out.println("The first name is " + first_name);
+            System.out.println("The last name is " + last_name);
+            System.out.println("The pay amount is " + pay);
+            System.out.println("The days is " + days);
+            System.out.println("The email is " + email);
+
+            System.out.println("What do you want to update? ");
+            System.out.println("1. City");
+            System.out.println("2. First name");
+            System.out.println("3. Last name");
+            System.out.println("4. Pay amount");
+            System.out.println("5. Days");
+            System.out.println("6. Email");
+
+            int choice = Integer.parseInt(scanner.nextLine());
+
+            String sqlQuery = "update employees set";
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter the new city: ");
+                    String newCity = scanner.nextLine();
+
+                    sqlQuery = sqlQuery + " city = ? where pay="+payValue;
+                    PreparedStatement preparedStatement = conn.prepareStatement(sqlQuery);
+                    preparedStatement.setString(1, newCity);
+
+                    int rows = preparedStatement.executeUpdate();
+
+                    if (rows > 0) {
+                        System.out.println("Updated successfully");
+                    } else {
+                        System.out.println("No rows updated");
+                    }
+                    break;
+                case 2:
+                    System.out.print("Enter the new first name: ");
+                    String newFirstName = scanner.nextLine();
+                    sqlQuery = sqlQuery + " first_name = ? where pay="+payValue;
+                    preparedStatement = conn.prepareStatement(sqlQuery);
+                    preparedStatement.setString(1, newFirstName);
+
+                    rows = preparedStatement.executeUpdate();
+
+                    if (rows > 0) {
+                        System.out.println("Updated successfully");
+                    } else {
+                        System.out.println("No rows updated");
+                    }
+                    break;
+                case 3:
+                    System.out.print("Enter the new last name: ");
+                    String newLastName = scanner.nextLine();
+                    sqlQuery = sqlQuery + " last_name = ? where pay="+payValue;
+                    preparedStatement = conn.prepareStatement(sqlQuery);
+                    preparedStatement.setString(1, newLastName);
+                    rows = preparedStatement.executeUpdate();
+                    if (rows > 0) {
+                        System.out.println("Updated successfully");
+                    } else {
+                        System.out.println("No rows updated");
+                    }
+                    break;
+
+            }
+
+        } else {
+            System.out.println("No record found");
+        }
+
     }
 }
