@@ -87,4 +87,6 @@ This Java application connects to a MySQL database and retrieves information abo
 This java application showcases the use of CRUD operations.
 ### Day 44
 This Java application connects to a MySQL database and retrieves student information from the `students` table. It demonstrates the use of JDBC (Java Database Connectivity) for executing SQL queries and processing the results. It employs the use of PreparedStatement.
+### Day 45
+This Java application connects to a MySQL database, retrieves data from the students table, and extracts metadata about the database schema and tables.
 
