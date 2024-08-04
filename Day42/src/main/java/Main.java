@@ -13,9 +13,12 @@ public class Main {
             ResultSet resultSet = statement.executeQuery("select * from students");
 
             while(resultSet.next()){
-                System.out.println(resultSet.getString("student_name"));
-                System.out.println(resultSet.getInt("student_id"));
-                System.out.println(resultSet.getInt("student_year"));
+                String name = resultSet.getString("student_name");
+                System.out.println(name);
+//                String name = resultSet.getString("student_name");
+//                int id = resultSet.getInt("student_id");
+//                double year = resultSet.getDouble("student_year");
+//                System.out.println("Name: " + name + ", ID: " + id + ", Year: " + year);
             }
 
         } catch (SQLException e){
