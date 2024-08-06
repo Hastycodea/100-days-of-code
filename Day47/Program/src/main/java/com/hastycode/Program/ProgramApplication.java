@@ -11,7 +11,7 @@ public class ProgramApplication {
 
 		ApplicationContext context = SpringApplication.run(ProgramApplication.class, args);
 
-		Person obj = context.getBean(Person.class);
+		User obj = context.getBean(User.class);
 		obj.build();
 
 	}
