@@ -10,7 +10,7 @@ public class App
 
         Dev obj = (Dev) context.getBean("dev");
 
-        obj.getLaptop().compile();
+        obj.getCom().compile();
 
     }
 }

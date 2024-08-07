@@ -2,31 +2,22 @@ package org.hastycode;
 
 public class Dev {
 
-    private int age;
-    private Laptop laptop;
+    private Computer com;
 
     public Dev() {
         System.out.println("Dev Constructor");
     }
 
-    public Dev(int age) {
-        this.age = age;
+    public Dev(Computer com) {
+        this.com = com;
     }
 
-    public Laptop getLaptop() {
-        return laptop;
+    public Computer getCom() {
+        return com;
     }
 
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+    public void setCom(Computer com) {
+        this.com = com;
     }
 
     public void build() {
