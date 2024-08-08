@@ -1,9 +1,14 @@
 package com.hastycode.webApp.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import org.springframework.stereotype.Component;
 
-
+@Component
+@Entity
 public class Product {
+
+    @Id
     private int productId;
     private String productName;
     private int productPrice;
