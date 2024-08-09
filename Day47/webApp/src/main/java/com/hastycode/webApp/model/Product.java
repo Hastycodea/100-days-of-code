@@ -2,9 +2,9 @@ package com.hastycode.webApp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-@Component
 @Entity
 public class Product {
 
@@ -17,6 +17,10 @@ public class Product {
         this.productId = productId;
         this.productName = productName;
         this.productPrice = productPrice;
+    }
+
+    public Product() {
+
     }
 
     public int getProductId() {
