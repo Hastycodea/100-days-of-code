@@ -38,8 +38,8 @@ public class FoundationsController {
     }
 
     @PutMapping("/user/{id}")
-    public void updateUser(@PathVariable int id) {
-        service.updateProduct(id);
+    public void updateUser(@PathVariable int id, @RequestBody User user) {
+        service.updateProduct(id, user);
     }
 
     @DeleteMapping("/user/{id}")

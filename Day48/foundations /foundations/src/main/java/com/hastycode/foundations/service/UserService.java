@@ -32,16 +32,16 @@ public class UserService {
         return user;
     }
 
-    public void updateProduct(int id) {
-        User user;
-        user = userHashMap.getOrDefault(id, null);
-        userHashMap.values().stream().filter(p -> p.getId() == id)
-                .forEach( p -> {
-                    p.setName(user.getName());
-                    p.setEmail(user.getEmail());
-                    p.setAge(user.getAge());
-                });
-        userHashMap.put(id, user);
+    public void updateProduct(int id, User user) {
+        User user1 = userHashMap.get(id);
+
+        if (user1 != null) {
+            user1.setName(user.getName());
+            user1.setEmail(user.getEmail());
+            user1.setAge(user.getAge());
+        } else {
+            System.out.println("User with " + id + " does not exist");
+        }
     }
 
     public void deleteUser(int id) {
