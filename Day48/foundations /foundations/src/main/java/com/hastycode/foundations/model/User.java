@@ -8,12 +8,6 @@ public class User {
     private int age;
     private int id;
 
-//    public User(String name, String email, int age) {
-//        this.name = name;
-//        this.email = email;
-//        this.age = age;
-//    }
-
     public User(String name, String email, int age, int id) {
         this.name = name;
         this.email = email;
