@@ -93,4 +93,6 @@ This Java application connects to a MySQL database, retrieves data from the stud
 This Java application connects to a MySQL database to insert multiple student records into a students table using JDBC (Java Database Connectivity). It demonstrates the use of batch processing and transaction management, ensuring data integrity during the insertion process.
 ### Day 47
 The package explores a five-day journey into Spring Boot, focusing on establishing a solid foundation for building a simple application. I explored the core concepts of Spring Boot, such as autoconfiguration and dependency injection, which streamline the development process. By the end of my discussions, I gained a clearer understanding of how these principles work together to simplify application development. Additionally, I successfully set up a basic web application, equipping myself with the skills necessary to continue building more complex applications in the days ahead.
+### Day 49
+The package involves handling of JPA (Java Persistence API) and how it simplifies database interactions in Spring Boot applications. I covered the key concepts of JPA, including entities, repositories, and JPA annotations. This knowledge has provided me with a clearer understanding of how to manage data persistence effectively in my applications.
 
