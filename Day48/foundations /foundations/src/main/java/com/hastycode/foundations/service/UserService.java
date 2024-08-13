@@ -32,7 +32,7 @@ public class UserService {
         return user;
     }
 
-    public void updateProduct(int id, User user) {
+    public User updateUser(int id, User user) {
         User user1 = userHashMap.get(id);
 
         if (user1 != null) {
@@ -42,6 +42,7 @@ public class UserService {
         } else {
             System.out.println("User with " + id + " does not exist");
         }
+        return user1;
     }
 
     public void deleteUser(int id) {
