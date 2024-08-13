@@ -20,4 +20,20 @@ public class UserService {
     public List<User> getAllUsers() {
         return repo.findAll();
     }
+
+    public User getUserById(int id) {
+        return repo.findById(id).orElse(null);
+    }
+
+    public User addUser(User user) {
+        return repo.save(user);
+    }
+
+    public void deleteUser(int id) {
+        repo.deleteById(id);
+    }
+
+    public User updateUser(int id, User user) {
+        return repo.save(user);
+    }
 }
