@@ -97,4 +97,6 @@ The package explores a five-day journey into Spring Boot, focusing on establishi
 The package focuses the basics of Spring MVC's Model-View-Controller (MVC) architecture for building REST APIs. I explored how to implement controllers, handle requests and responses, and perform data binding within a Spring Boot application.
 ### Day 49
 The package involves handling of JPA (Java Persistence API) and how it simplifies database interactions in Spring Boot applications. I covered the key concepts of JPA, including entities, repositories, and JPA annotations. This knowledge has provided me with a clearer understanding of how to manage data persistence effectively in my applications.
+### Day 50
+I focused on implementing CRUD (Create, Read, Update, Delete) operations for a User entity using Spring Boot and Spring Data JPA. In addition to the standard CRUD operations, I also implemented an additional API to retrieve all users. I made sure to handle exceptions gracefully, especially in cases where a User is not found.
 
