@@ -100,5 +100,6 @@ The package involves handling of JPA (Java Persistence API) and how it simplifie
 ### Day 50
 I focused on implementing CRUD (Create, Read, Update, Delete) operations for a User entity using Spring Boot and Spring Data JPA. In addition to the standard CRUD operations, I also implemented an additional API to retrieve all users. I made sure to handle exceptions gracefully, especially in cases where a User is not found.
 ### Day 51
+jdbc
 ### Day 52
 
